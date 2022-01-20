@@ -88,6 +88,8 @@ class platform(pygame.sprite.Sprite):
         self.moving = True
         self.point = True
 
+    # Collisions Method
+
     def move(self):
         if self.moving:
             self.rect.move_ip(self.speed, 0)
